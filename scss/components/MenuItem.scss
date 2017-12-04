@@ -1,0 +1,24 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+// Styling for the menuitem
+#menu {
+  .navbar-nav {
+    > li.nav-item {
+      border-bottom: 1px solid $gray-700;
+      &:last-child {
+        border-bottom: 0;
+      }
+      > a {
+        padding: 20px 20px;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:hover {
+          color: $gray-400;
+        }
+      }
+    }
+  }
+}

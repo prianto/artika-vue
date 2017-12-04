@@ -1,0 +1,21 @@
+footer {
+  background: #495057;
+  padding: 30px 0 15px; }
+  footer .list-inline {
+    margin: 0 0 0 0;
+    padding: 0; }
+    footer .list-inline .list-inline-item {
+      margin: 0 -5px 0 0;
+      padding: 0; }
+  footer .copyright {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    text-align: center;
+    color: #adb5bd !important; }
+    footer .copyright a {
+      color: #adb5bd; }
+      footer .copyright a:hover {
+        color: #ced4da; }
+    footer .copyright span.divider {
+      color: #666;
+      margin: 0 5px; }

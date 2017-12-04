@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400italic,400");
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #495057;
+  background: #495057;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: #0085A1; }
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+  font-size: 14px; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 16px; } }
+  p a {
+    text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*font-weight: 800;*/
+  font-weight: 400;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+a {
+  color: #495057;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:focus, a:hover {
+    color: #343a40; }
+
+blockquote {
+  font-style: italic;
+  color: #868e96; }
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px; }
+
+.caption {
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 12px; }
+  @media only screen and (min-width: 768px) {
+    .caption {
+      font-size: 14px; } }
+
+::-moz-selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none; }
+
+::selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none; }
+
+img::selection {
+  color: #fff;
+  background: transparent; }
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent; }
+
+h1 {
+  font-size: 1.5rem; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 2.5rem; } }
+
+.btn {
+  font-size: 14px;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+.btn-primary {
+  background-color: #0085A1;
+  border-color: #0085A1; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #00657b !important;
+    border-color: #00657b !important; }
+
+.form-control {
+  border-radius: 0; }
+
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px; }
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+  box-shadow: unset !important; }
