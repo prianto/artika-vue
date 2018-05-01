@@ -8,7 +8,7 @@ This template features home page, category page, about page, contact page, searc
 
 ![Artika Vue Preview](src/assets/img/preview.jpg?raw=true "Artika Vue")
 
-**[View live preview on Herokuapp &rarr;](https://artika-vue.herokuapp.com/)**
+**[View live preview on Netlify &rarr;](https://artika-vue.netlify.com/)**
 
 ## Download and Installation
 
